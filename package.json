@@ -1,0 +1,48 @@
+{
+  "name": "SocialWall",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@firebase/app-types": "0.x",
+    "firebase": "^4.13.1",
+    "firebase-admin": "^5.12.0",
+    "firebase-tools": "^3.18.4",
+    "prop-types": "^15.6.1",
+    "randomatic": "^3.0.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.2",
+    "react-redux": "^7.1.0",
+    "react-scripts": "^3.2.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "antd": "^3.24.2",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-react": "^7.7.0",
+    "prettier": "^1.12.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
